@@ -1,0 +1,6 @@
+@import url('style.css');
+@import url('style_min-width_576px.css') (min-width:576px);
+@import url('style_min-width_768px.css') (min-width:768px);
+@import url('style_min-width_992px.css') (min-width:992px);
+@import url('style_min-width_1200px.css')(min-width:1200px);
+

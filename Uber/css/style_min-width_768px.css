@@ -1,0 +1,586 @@
+header .nav_bar{
+  display: none;
+}
+
+header>nav {
+  display: initial;
+  background-color: #212121;
+  height: 51px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+header>nav .container {
+  padding: 0 10px;
+  padding-top: 12px;
+  height: 51px;
+}
+
+.menu {
+  display: flex;
+  padding-left: 0;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu_link {
+  font-weight: 300;
+  font-size: 13px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.menu_item {
+  border-right: 2px dotted #000;
+  padding-right: 12px;
+}
+
+.menu_item a{
+  text-decoration: none;
+}
+
+.menu_item a:hover{
+  color: rgb(25, 155, 206);
+}
+
+.menu_item:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.subheader {
+  height: 84px;
+  background-color: rgba(0,0,0,0.6);
+  transform: translateY(50px);
+}
+
+.subheader .subheader_logo {
+  max-width: 100%;
+  margin-top: 16px;
+  display: block;
+}
+
+.subheader .subheader_logo img{
+  width: 80%;
+}
+
+.subheader .subheader_text {
+  font-weight: 200;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-top: 6px;
+}
+
+.subheader .subheader_contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.subheader_contact_block {
+  display: block;
+}
+
+.subheader .subheader_call {
+  font-weight: 300;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-top: -5px;
+  text-align: right;
+}
+
+.subheader .subheader_phone {
+  font-weight: normal;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-align:center;
+  color: #FFFFFF;
+}
+
+.subheader_btn {
+  display: block;
+}
+
+.subheader .subheader_btn_text {
+  width: 160px;
+  height: 40px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.promo {
+  height: 770px;
+}
+
+.promo>div {
+  background: url('../img/bg/woman_bg.png') center center/cover no-repeat;
+  width: 100%;
+  height: 760px;
+  position: absolute;
+  top: 51px;
+  z-index: -1;
+}
+
+.promo .promo_patners {
+  margin: 0 auto;
+}
+
+.promo .promo_slogan {
+  margin-top: 135px;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.promo .promo_invitation {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+
+.promo .promo_description_1, .promo_description_2 {
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.promo .promo_description_2 {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.promo .promo_btn {
+  width: 259px;
+  height: 50px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  display: block;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.advantages {
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.advantages .advantages_black {
+  background-color: #000;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 113px;
+  height: 24px;
+  text-align: center;
+  margin: 0 auto;
+} 
+
+.advantages .advantages_title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.advantages .advantages_icon {
+  background-color: #1EACC7;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  margin-left: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantages .advantages_icon>img {
+  width: 50%;
+}
+
+.advantages .advantages_desc {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  align-items: flex-start;
+  color: #1EACC7;
+  text-align: left;
+}
+
+.advantages .advantages_text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: flex-start;
+  color: #202020;
+  text-align: left;
+}
+
+.advantages .advantages_reason {
+  margin-top: 10px;
+}
+
+.mobileApp {
+  background: url('../img/bg/grid_big.png')center center/cover no-repeat;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.mobileApp .container>.row {
+  margin-top: 30px;
+}
+
+.mobileApp .mobileApp_title {
+  width: 112px;
+  height: 24px;
+  background-color: #000;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 26px;
+  margin: 0 auto;
+  margin-top: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.mobileApp .mobileApp_uber {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 20px; 
+}
+
+.mobileApp .mobileApp_order {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.mobileApp .mobileApp_opp {
+  height: 100%;
+  position: relative;
+}
+
+.mobileApp .mobileApp_img {
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.mobileApp .mobileApp_opp div {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  width: 100%;
+}
+
+.mobileApp .mobileApp_plus {
+  position: absolute;
+  width: 20px;
+  bottom: 15px;
+  display: block;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.car_uberX {
+  background: url(../img/bg/car_bg.png) center center/cover no-repeat;
+  height: 700px;
+}
+
+.car_uberX .car_uberX_opp {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #070716;
+  background-color: #fff;
+  height: 27px;
+  width: 115px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.car_uberX .car_uberX_title {
+  display: block;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 26px;
+}
+
+.car_uberX .car_uberX_text {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.car_uberX .car_uberX_logo {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.car_uberX .car_uberX_img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.car_uberX .car_uberX_footer {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.conditions {
+  border-color: #fff;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.conditions .conditions_opp {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #000;
+  text-align: center;
+  width: 112px;
+  height: 24px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.conditions .conditions_terms {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 20px;
+}
+
+.conditions .conditions_your_car, .conditions_company_car {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1CA8C3;
+  margin-top: 25px;
+}
+
+.conditions .conditions_text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  text-indent: 0;
+  color: #222222;
+  margin-top: 20px;
+}
+
+.conditions .conditions_profit {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1CA8C3;
+  margin-top: 15px;
+}
+
+.conditions .conditions_term, .conditions_documents {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FF5656;
+  margin-top: 35px;
+}
+
+.conditions .red_checkbox {
+  list-style-image: url("../icons/check_red.png");
+}
+
+.worldMap {
+  background: url(../img/bg/world_bg.png) center center/cover no-repeat;
+  height: 550px;
+}
+
+.worldMap .worldMap_city {
+  background-color: #fff;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #070716;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 75px;
+  height: 25px;
+}
+
+.worldMap .worldMap_worldwide {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 26px;
+}
+
+.worldMap .worldMap_worldwide_text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.worldMap .worldMap_footer a{
+  display: block;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 68px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  margin-top: 300px;
+  text-decoration: none;
+}
+
+.contacts {
+  background-color: #fff;
+  height: 155px;
+}
+
+.contacts .contacts_blueLine {
+  display: block;
+  background-color: #1FBAD6;
+  width: 301px;
+  height: 5px;
+  margin: 0 auto;
+  margin-left: -45px;
+  margin-top: 11px;
+}
+
+.contacts .contacts_social {
+  width: 180px;
+  top: 30px;
+}
+
+.contacts .contacts_social>a {
+  text-decoration: none;
+}
+
+.contacts .contacts_nav {
+  display: block;
+  margin-left: -20px ;
+  width: 300px;
+}
+
+.contacts .contacts_nav>a{
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #070716;
+  margin-top: 32px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.contacts .contacts_link_mobile {
+  display: block;
+  margin-left: -10px;
+}
+
+.contacts .contacts_link {
+  display: none;
+}
+
+.contacts .contacts_link>a {
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #999999;
+  margin-top: 15px;
+}
+
+.contacts .contacts_lang {
+  font-weight: normal;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  margin-top: 20px;
+}
+
+.contacts .contacts_store {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.contacts .contacts_store a {
+  text-decoration: none;
+}
+
+.contacts .contacts_store img {
+  height: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+

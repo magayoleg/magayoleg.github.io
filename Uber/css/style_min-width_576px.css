@@ -1,0 +1,456 @@
+header>nav {
+  display: none;
+}
+
+.nav_bar {
+  margin: 0;
+}
+
+.container .nav_bar_right {
+  width: inherit;
+}
+
+.container .container_nav {
+  position: fixed;
+  z-index: 3;
+  width: inherit;
+}
+
+.container .navbar {
+  justify-content: flex-end;
+}
+
+.container .navbar ul>li {
+  list-style-type: none;
+  text-align: right;
+}
+
+.container .navbar ul>li a {
+  line-height: 45px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.subheader {
+  transform: translateY(56px);
+}
+
+.subheader .subheader_logo {
+  width: 100%;
+  margin-top: 7px;
+  display: block;
+}
+
+.subheader .subheader_text {
+  display: initial;
+  font-weight: 200;
+  font-size: 10px;
+  color: #FFFFFF;
+  margin-top: 6px;
+}
+
+.subheader .subheader_contact_block {
+  margin: 0;
+  max-width: 250px;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  font-size: 2vh;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.subheader .subheader_contact div {
+  width: 100%;
+}
+
+.subheader .subheader_btn {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.subheader .subheader_btn_text {
+  display: block;
+  min-width: 150px;
+  max-width: 170px;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-top: 2px;
+}
+
+.promo {
+  height: 680px;
+}
+
+.promo>div {
+  height: 100%;
+}
+
+.promo .promo_patners {
+  margin: 0 auto;
+}
+
+.promo .promo_slogan {
+  margin-top: 140px;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.promo .promo_invitation {
+  font-size: 28px;
+  width: 100%;
+  line-height: 33px;
+  margin-top: 50px;
+}
+
+.promo .promo_btn {
+  width: 259px;
+  height: 55px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.advantages {
+  height: 100%;
+  margin-top: 90px;
+  padding-bottom: 30px;
+}
+
+.advantages .advantages_black {
+  margin-top: 20px;
+  margin: 0 auto;
+} 
+
+.advantages .advantages_title {
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 30px;
+}
+
+.advantages .advantages_icon {
+  width: 106px;
+  height: 106px;
+  margin-top: 15px;
+}
+
+.advantages .advantages_desc {
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 15px;
+}
+
+.advantages .advantages_text {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.mobileApp {
+  background: url('../img/bg/grid_big.png')center center/cover no-repeat;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.mobileApp .container>.row {
+  margin-top: 30px;
+}
+
+.mobileApp .mobileApp_title {
+  margin-top: 40px;
+}
+
+.mobileApp .mobileApp_uber {
+  font-size: 28px;
+  line-height: 33px;
+  margin-top: 20px;
+}
+
+.mobileApp .mobileApp_order {
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 15px;
+}
+
+.mobileApp .mobileApp_opp {
+  height: 100%;
+  position: relative;
+}
+
+.mobileApp .mobileApp_img {
+  width:90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.mobileApp .mobileApp_opp div {
+  font-size: 18px;
+  line-height: 31px;
+  top: 70px;
+  width: 80%;
+}
+
+.mobileApp .mobileApp_plus {
+  position: absolute;
+  bottom: 70px;
+  display: block;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.car_uberX {
+  background: url(../img/bg/car_bg.png) center center/cover no-repeat;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.car_uberX .car_uberX_opp {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #070716;
+  background-color: #fff;
+  height: 27px;
+  width: 115px;
+  margin: 0 auto;
+  margin-top: 54px;
+}
+
+.car_uberX .car_uberX_title {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 26px;
+}
+
+.car_uberX .car_uberX_text {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.car_uberX .car_uberX_logo {
+  margin: 0 auto;
+  margin-top: 53px;
+}
+
+.car_uberX .car_uberX_img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.car_uberX .car_uberX_footer {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.conditions {
+  border-color: #fff;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.conditions .conditions_opp {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #000;
+  text-align: center;
+  width: 112px;
+  height: 24px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.conditions .conditions_terms {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 28px;
+}
+
+.conditions .conditions_your_car, .conditions_company_car {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1CA8C3;
+  margin-top: 33px;
+}
+
+.conditions .blue_checkbox {
+  list-style-image: url("../icons/check_blue.png");
+}
+
+.conditions .conditions_text {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  text-indent: 4px;
+  color: #222222;
+  margin-top: 20px;
+}
+
+.conditions .conditions_profit {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #1CA8C3;
+  margin-top: 25px;
+}
+
+.conditions .conditions_term, .conditions_documents {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+  color: #FF5656;
+  margin-top: 15px;
+}
+
+.conditions .red_checkbox {
+  list-style-image: url("../icons/check_red.png");
+}
+
+.worldMap {
+  background: url(../img/bg/world_bg.png) center center/cover no-repeat;
+  height: 400px;
+  padding-bottom: 10px;
+}
+
+.worldMap .worldMap_city {
+  background-color: #fff;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #070716;
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 75px;
+  height: 25px;
+}
+
+.worldMap .worldMap_worldwide {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 26px;
+}
+
+.worldMap .worldMap_worldwide_text {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.worldMap .worldMap_footer a{
+  display: block;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 68px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  margin-top: 180px;
+  text-decoration: none;
+}
+
+.contacts {
+  background-color: #fff;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.contacts .contacts_blueLine {
+  background-color: #1FBAD6;
+  width: 301px;
+  height: 5px;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+
+.contacts .contacts_social {
+  margin-top: 30px;
+}
+
+.contacts .contacts_social>a {
+  text-decoration: none;
+}
+
+.contacts .contacts_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts .contacts_nav>a{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #070716;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.contacts .contacts_link_mobile {
+  display: none;
+}
+
+.contacts .contacts_link {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+}
+
+.contacts .contacts_link>a {
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999999;
+  margin-top: 15px;
+}
+
+.contacts .contacts_lang {
+  font-weight: normal;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  margin-top: 20px;
+}
+
+.contacts .contacts_store a {
+  text-decoration: none;
+}
+
+.contacts .contacts_store img {
+  height: 40px;
+  margin-left: 7px;
+}
+
+
