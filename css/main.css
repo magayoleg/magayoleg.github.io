@@ -413,7 +413,7 @@ body {
 }
 
 .title_fs44 {
-    width: 480px;
+    width: 500px;
     margin-top: 20px;
     font-weight: bold;
     font-size: 44px;
@@ -551,7 +551,7 @@ body {
 }
 
 .menu__social {
-    width: 60px;
+    width: 120px;
     margin: 0 auto;
     margin-top: 65%;
     display: flex;
@@ -1039,7 +1039,7 @@ body {
     }
     .promo__title,
     .promo__btn {
-        margin-left: 0
+        margin-left: 0;
     }
     .aboutMe__content {
         grid-template-columns: 430px auto
@@ -1379,7 +1379,7 @@ body {
         background-position: 55%
     }
     .title_fs16 {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 24px
     }
     .title_fs44 {
